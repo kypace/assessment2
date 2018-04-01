@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assessment 2 - Avatar creator</title>
+	<link href="preview.css" rel="stylesheet" type="text/css" />
+	<link href="controls.css "type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  
+  <body>
+    <div id="preview">
+      <img id="hair" class="items" src="img/hair1.png" />
+      <img id="eyes" class="items" src="img/eyes1.png" />
+      <img id="nose" class="items" src="img/nose1.png" />
+      <img id="mouth" class="items" src="img/mouth1.png" />
+	    
+    </div>
+	
+	<div id="controls">
+		<input type ="range" min="0" max ="70" value="60" id="firstrange"/>
+		<input type ="range" min="0" max ="40" value="20" id="secondrange"/>
+		<input type ="range" min="0" max ="30" value="20" id="thirdrange"/>
+		<input type ="range" min="0" max ="35" value="20" id="fourthrange"/>
+		<input type="color" id="colorInp">
+		<br>
+		<br>
+		<button id="range">Range</button>
+		<button id="number">Number</button>
+		<button id="random">Random</button>
+		<button id="plus">+</button>
+		|
+		<button id="autorandomcreate"> Auto Random Create </button>
+		<button id="stopautocreate"> Stop Auto Create </button>
+		
+		
+	</div>
+	
+	<div id="display" class="row">
+	</div>
+	
+	<script src="preview.js"></script>
+	<script src="controls.js"></script>
+  </body>
+</html>

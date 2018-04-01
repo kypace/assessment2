@@ -1,0 +1,23 @@
+#firstrange, #secondrange, #thirdrange, #fourthrange {
+	width:55px;
+}
+
+#number{
+	background-color:black;
+	color:white;
+}
+
+#random{
+	background-color:pink;
+}
+
+#plus{
+	background-color:grey;
+	color:white;
+}
+
+.vancity{
+	width:100px;
+	height:100px;
+	position:relative;
+}
